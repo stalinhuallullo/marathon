@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+}
+section{
+    background: #373737;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+section img{
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+section h2{
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+}
+section .description{
+    text-align: left;
+}
+section .description > div{
+    padding-top: 5px;
+}
+section .description > div span{
+
+}
